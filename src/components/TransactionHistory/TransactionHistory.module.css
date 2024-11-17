@@ -1,13 +1,13 @@
 .table {
   width: 500px;
-  border: 1px solid black;
-  font-style: 34px;
+  font-size: 34px;
   margin: 0 auto;
+  border-collapse: collapse;
 }
-.thead {
-    
+.head th {
+  border: 1px solid black;
 }
-.head {
-}
-.body {
+.body td {
+  /* border-collapse: collapse; */
+  border: 1px solid black;
 }
